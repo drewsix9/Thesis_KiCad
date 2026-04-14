@@ -83,7 +83,6 @@
 	(net 1 "GND")
 	(net 2 "VCC")
 	(net 3 "Net-(D1-A)")
-	(net 4 "Net-(D1-K)")
 	(net 4 "unconnected-(J1-Pin_6-Pad6)")
 	(net 5 "unconnected-(J1-Pin_1-Pad1)")
 	(net 6 "unconnected-(J1-Pin_10-Pad10)")
