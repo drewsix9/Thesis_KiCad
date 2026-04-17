@@ -2536,142 +2536,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1117T-5.0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM1117T-5.0"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM1117T-5.0_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM1117T-5.0_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:PN2222A"
 			(pin_names
 				(offset 0) hide)
@@ -2870,6 +2734,301 @@
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:IRLZ44N"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLZ44N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLZ44N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IRLZ44N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3158,12 +3317,6 @@
 		(uuid "2659b5e1-5317-46ae-8010-c0dd315a0139")
 	)
 	(junction
-		(at 165.1 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "311be3a8-d1ac-4dbb-9f23-5e2246ac2a61")
-	)
-	(junction
 		(at 121.92 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3174,6 +3327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37ba7aa8-6592-4486-8062-acb859f0579e")
+	)
+	(junction
+		(at 95.25 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c25e2ca-b6a9-4c00-a129-a846413fbb9a")
 	)
 	(junction
 		(at 170.18 86.36)
@@ -3212,12 +3371,6 @@
 		(uuid "76a9d40d-0417-4f77-9a3a-e749e983b180")
 	)
 	(junction
-		(at 46.99 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86decdf2-4c47-46d6-97a5-ae38f6e00d3d")
-	)
-	(junction
 		(at 152.4 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3228,6 +3381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fe633c1-5d81-4cf4-bed0-ef474fc95419")
+	)
+	(junction
+		(at 166.37 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f3562c3-a44d-4cb9-89e9-506b3394eb52")
 	)
 	(junction
 		(at 163.83 143.51)
@@ -3312,20 +3471,12 @@
 		(uuid "2ee4429e-8de4-4018-abe5-8e48f81fcf9e")
 	)
 	(no_connect
-		(at 95.25 60.96)
-		(uuid "37e22055-ae95-415f-8d6e-03834f404b4d")
-	)
-	(no_connect
 		(at 180.34 88.9)
 		(uuid "3a875c5a-0bb1-444e-a530-7757209b4fd6")
 	)
 	(no_connect
 		(at 95.25 81.28)
 		(uuid "43f02750-7f17-4c86-baba-59f92d5b8a69")
-	)
-	(no_connect
-		(at 95.25 58.42)
-		(uuid "5711faa1-49f5-49b7-9d92-cea9d6302875")
 	)
 	(no_connect
 		(at 54.61 88.9)
@@ -3385,6 +3536,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 104.14) (xy 166.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007c226d-25c5-4606-9d35-7bc02368753e")
+	)
+	(wire
+		(pts
 			(xy 163.83 143.51) (xy 166.37 143.51)
 		)
 		(stroke
@@ -3415,13 +3576,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 40.64 60.96)
+			(xy 166.37 80.01) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08488a48-603d-4120-b4a8-713d476e0c0e")
+		(uuid "0999e9cf-6ec0-4cfc-9eb8-df2376d1c863")
 	)
 	(wire
 		(pts
@@ -3455,13 +3616,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 44.45 76.2)
+			(xy 102.87 63.5) (xy 102.87 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1794b3c0-2a16-4863-a83c-f1d992d1883b")
+		(uuid "10827ea7-70e4-438a-912d-6184c6c83ca0")
 	)
 	(wire
 		(pts
@@ -3575,6 +3736,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 63.5) (xy 102.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aceca1e-3840-4136-8966-ae86ff38602a")
+	)
+	(wire
+		(pts
 			(xy 158.75 130.81) (xy 152.4 130.81)
 		)
 		(stroke
@@ -3622,26 +3793,6 @@
 			(type default)
 		)
 		(uuid "307b9609-7675-4808-a811-369976f69d48")
-	)
-	(wire
-		(pts
-			(xy 54.61 60.96) (xy 46.99 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3164903a-4c2f-4c1c-a473-8d83e074c053")
-	)
-	(wire
-		(pts
-			(xy 165.1 80.01) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34baff31-6e99-412c-bb91-af9c9d137f38")
 	)
 	(wire
 		(pts
@@ -3725,16 +3876,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cda0ac1-151e-4a19-90a0-81a6aabd8214")
-	)
-	(wire
-		(pts
 			(xy 168.91 53.34) (xy 168.91 91.44)
 		)
 		(stroke
@@ -3805,16 +3946,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 60.96) (xy 40.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e90bb58-47f6-4ec8-afcb-a03e5d2f6b9e")
-	)
-	(wire
-		(pts
 			(xy 173.99 143.51) (xy 173.99 137.16)
 		)
 		(stroke
@@ -3822,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "4f58826e-ff52-479f-889a-a6966bf9ca11")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5228724d-802c-43f1-9b46-e0d7f4019f98")
 	)
 	(wire
 		(pts
@@ -3865,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e91e9c4-e727-401c-b222-e1d115fe146b")
+	)
+	(wire
+		(pts
 			(xy 229.87 72.39) (xy 234.95 72.39)
 		)
 		(stroke
@@ -3872,6 +4023,16 @@
 			(type default)
 		)
 		(uuid "5faa7c8c-2ecd-45c8-b851-b110a28ee09a")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644d91cf-5257-43bd-8550-250704eb321b")
 	)
 	(wire
 		(pts
@@ -3885,16 +4046,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 166.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a057a6-ba38-4a61-9775-eb7e76f4a218")
-	)
-	(wire
-		(pts
 			(xy 173.99 86.36) (xy 180.34 86.36)
 		)
 		(stroke
@@ -3902,6 +4053,16 @@
 			(type default)
 		)
 		(uuid "678d9813-75dc-4a6e-8359-c96b76aa0d4d")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a9ca58-7a21-4a92-a2fb-7cf711228951")
 	)
 	(wire
 		(pts
@@ -3932,6 +4093,16 @@
 			(type default)
 		)
 		(uuid "6e99170a-044a-4621-8b89-be356526f508")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725a6391-4358-4e2f-b9be-6b188ec872b5")
 	)
 	(wire
 		(pts
@@ -4015,16 +4186,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 93.98 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c13178-d7b9-41ed-870c-1d75d6dadceb")
-	)
-	(wire
-		(pts
 			(xy 121.92 118.11) (xy 139.7 118.11)
 		)
 		(stroke
@@ -4095,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 170.18 86.36)
+			(xy 163.83 86.36) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4155,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 93.98) (xy 151.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972b85df-9fed-40b2-bc61-0d2e5db55e31")
-	)
-	(wire
-		(pts
 			(xy 171.45 83.82) (xy 175.26 83.82)
 		)
 		(stroke
@@ -4175,13 +4326,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 71.12) (xy 41.91 78.74)
+			(xy 95.25 66.04) (xy 102.87 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a7f3d2b-deab-4b34-ba63-0dc86af42cd4")
+		(uuid "9be397be-d293-4051-a6c2-3c73b1571c41")
 	)
 	(wire
 		(pts
@@ -4235,13 +4386,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 44.45 68.58)
+			(xy 93.98 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a523aa95-2af4-443b-abba-92ef6258fc39")
+		(uuid "a7920bae-1f85-40b5-b135-a20bf843359e")
 	)
 	(wire
 		(pts
@@ -4272,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "a9ec3003-349b-4264-9921-5f3d9a4398cb")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 54.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2c0735-02c8-4f52-8419-0a9a3f25e406")
 	)
 	(wire
 		(pts
@@ -4385,6 +4546,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 95.25) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc16c91-2dcb-4afc-8a81-d8e3fd2d6b5c")
+	)
+	(wire
+		(pts
 			(xy 129.54 55.88) (xy 129.54 60.96)
 		)
 		(stroke
@@ -4405,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.01) (xy 165.1 80.01)
+			(xy 142.24 80.01) (xy 166.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4432,16 +4603,6 @@
 			(type default)
 		)
 		(uuid "d0a4d6ed-dead-4c46-bc4f-f63fa80176f7")
-	)
-	(wire
-		(pts
-			(xy 44.45 68.58) (xy 40.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4211374-aa4f-41e9-90c1-4cef179b6648")
 	)
 	(wire
 		(pts
@@ -4485,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 58.42) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbba0bf3-6cc5-42e7-9f83-49791782891d")
+	)
+	(wire
+		(pts
 			(xy 220.98 40.64) (xy 220.98 53.34)
 		)
 		(stroke
@@ -4492,16 +4663,6 @@
 			(type default)
 		)
 		(uuid "dce9ef64-2474-4ac9-82e5-c80b0ae493a3")
-	)
-	(wire
-		(pts
-			(xy 41.91 78.74) (xy 54.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d0fe2b-5066-47c4-8933-6fdca2a822b0")
 	)
 	(wire
 		(pts
@@ -4622,16 +4783,6 @@
 			(type default)
 		)
 		(uuid "fa88f413-6f75-4826-bb25-7c4c2249b3a5")
-	)
-	(wire
-		(pts
-			(xy 40.64 71.12) (xy 41.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb379062-981c-4ec0-aec3-14a5e9ad3985")
 	)
 	(wire
 		(pts
@@ -5471,7 +5622,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 35.56 68.58 180)
+		(at 110.49 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5480,23 +5631,25 @@
 		(fields_autoplaced yes)
 		(uuid "4a84cf75-8bee-4875-90d9-e82d6d695afe")
 		(property "Reference" "J8"
-			(at 35.56 59.69 0)
+			(at 113.03 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 35.56 62.23 0)
+		(property "Value" "LILYGO UART"
+			(at 113.03 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 35.56 68.58 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 68.58 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5667,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 68.58 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,6 +6067,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 158.75 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "657214ef-9311-49da-b03b-a7a2ec32f27f")
+		(property "Reference" "Q2"
+			(at 158.75 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 158.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 156.845 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1917c38-e890-451f-a78c-f1164f5f23bb")
+		)
+		(pin "1"
+			(uuid "84abf4e1-1b84-41b4-bd2a-319c44f80ecf")
+		)
+		(pin "2"
+			(uuid "b8d7bf48-52e7-4c41-8612-7ced594c5a64")
+		)
+		(instances
+			(project ""
+				(path "/13055492-be3c-45cb-b82e-51800be76b99"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 218.44 139.7 90)
 		(unit 1)
@@ -6180,77 +6407,6 @@
 			(project "NEW"
 				(path "/13055492-be3c-45cb-b82e-51800be76b99"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117T-5.0")
-		(at 158.75 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d31b82cb-896e-4bb2-a8dd-7b606ece45af")
-		(property "Reference" "U1"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117T-5.0"
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e556c420-c096-4881-853e-95ad2d82aedb")
-		)
-		(pin "3"
-			(uuid "efa00e33-989f-4b7a-9932-8aebddce7152")
-		)
-		(pin "1"
-			(uuid "355f83b2-a91f-4417-95ce-a8cba1dfa804")
-		)
-		(instances
-			(project "NEW"
-				(path "/13055492-be3c-45cb-b82e-51800be76b99"
-					(reference "U1")
 					(unit 1)
 				)
 			)
